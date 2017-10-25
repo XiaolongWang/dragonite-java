@@ -1,4 +1,4 @@
-FROM openjdk:latest
+FROM openjdk:slim
 
 EXPOSE 5233 5234 1080
 
