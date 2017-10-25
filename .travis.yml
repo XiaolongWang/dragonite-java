@@ -27,7 +27,8 @@ deploy:
     branch: master
     tags: true
 - provider: script
-  script: docker-build.sh
+  script: "sh docker-build.sh"
+  skip_cleanup: true
   on:
     branch: master
     tags: true
